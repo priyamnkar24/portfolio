@@ -238,16 +238,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Instagram Button Animation
-    gsap.from('.insta-btn', {
-        opacity: 0,
-        y: 20,
-        duration: 1,
-        ease: 'power3.out',
-        scrollTrigger: {
-            trigger: 'footer',
-            start: 'top 90%',
-            toggleActions: 'play none none reset'
-        }
-    });
+    
 });
